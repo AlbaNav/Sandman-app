@@ -1,0 +1,40 @@
+@import "../../../styles.scss";
+
+.imgContainer{
+    width: 100%;
+    height: 50%;
+
+  }
+       img{
+         display: flex;
+         margin: 0 auto;
+        margin-top: 5px;
+        border-radius: 2.5%;
+        overflow: hidden;
+        justify-content: center;
+        padding-top:2%;
+        width: 60%;
+        height: 50%;
+        object-fit: contain;
+        object-position: center center;
+      }
+
+.Quote{
+
+  justify-content:justify;
+  font-size: 20px;
+  margin:15%;
+  margin-bottom: 5%;
+  padding:2%;
+}
+.delirium{
+   size:15%;
+
+  p{
+    justify-content:center;
+    margin:15%;
+    margin-top: 1%;
+    margin-bottom:1%;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,58 @@
+@import "../../../styles.scss";
+
+
+*{
+  background-color: #24114d;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+}
+h6 {
+  padding: 10px;
+  margin: 80px;
+  border-radius: 10px;
+  color: $pale;
+  text-transform: uppercase;
+  text-align: center;
+  margin: -40px;
+  font-size: 18px;
+  text-shadow: 2px 2px 0 #3C415C, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 0px -2px 0 $primary-color,
+    2px 2px 0px rgba(206, 89, 55, 0);
+}
+
+h2{
+    color: $pale;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    padding:20px;
+    text-shadow: 2px 2px 0 $lightblue, 2px -2px 0 $lightblue,
+    -2px 2px 0 $lightblue, -2px -2px 0 $lightblue,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 0px -2px 0 $primary-color,
+    2px 2px 0px rgba(206, 89, 55, 0);
+}
+
+.character-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  &__card {
+    border: solid 3px $blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    height: 300px;
+    width: 20%;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

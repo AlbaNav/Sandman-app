@@ -1,0 +1,9 @@
+<div *ngIf="character" class="character-container">
+  <div class="character-container__card">
+    <h2>{{ character.name }}</h2>
+    <img src="{{ character.image }}" alt="{{ character.name }}" />
+    <p>alias: {{ character.alias }}</p>
+    <p>family: {{ character.family }}</p>
+    <p>description: {{ character.description }}</p>
+    </div>
+</div>

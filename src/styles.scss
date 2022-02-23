@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+//PALETTE
+$primary-color: #151515;
+$secondary-color: #301B3F;
+$transparent: #1515154b;
+$lightblue: #535977;
+$pale: #B4A5A5;
+$blue:#2D4263;
+$background: #c5c5c5;
+
+//RESET
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Special Elite', cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+//GLOBAL STYLES
+body{
+background-color: #E6E7EB;
+background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+}

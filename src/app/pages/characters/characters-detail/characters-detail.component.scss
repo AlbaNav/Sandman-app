@@ -1,0 +1,63 @@
+@import "../../../../styles.scss";
+
+* {
+  background-color: #584a66ad;
+  background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+}
+
+.character-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  h2 {
+    color: $primary-color;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 2px;
+  }
+  &__card {
+    border: solid 2px $secondary-color;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #584a66ad;
+    background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+    width: 60%;
+    height: 90%;
+
+    h2 {
+      color: $pale;
+      text-shadow: 2px 2px 0 #3c415c, 2px -2px 0 $primary-color,
+        -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+        2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+        -2px 0px 0 $primary-color, 0px -2px 0 $primary-color,
+        2px 2px 0px rgba(206, 89, 55, 0);
+    }
+
+    img {
+      width: 85%;
+      border-radius: 10px;
+      border: solid 2px $blue;
+      width: 50%;
+    }
+
+    p {
+      text-transform: uppercase;
+      padding: 8px;
+      margin: 8px;
+      color: $primary-color;
+      text-shadow: 0.5px 0.5px 0 #3c415c, 0.5px -0.5px 0 $primary-color,
+      -0.5px 0.5px 0 $primary-color, -0.5px -0.5px 0 $primary-color,
+      0.5px 0px 0 $primary-color, 0px 0.5px 0 $primary-color,
+      -0.5px 0px 0 $primary-color, 0px -0.5px 0 $primary-color,
+      0.5px 0.5px 0px $pale;
+    }
+
+    li {
+      padding: 8px;
+      margin: 8px;
+      color: $blue;
+    }
+  }
+}

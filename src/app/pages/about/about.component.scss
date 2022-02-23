@@ -1,0 +1,82 @@
+@import "../../../styles.scss";
+
+* {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  color: $blue;
+  margin-top: 5%;
+}
+h2 {
+  display: flex;
+  flex-direction: row;
+  color: $blue;
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-size: 22px;
+}
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: $secondary-color;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: $secondary-color;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+h5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: $secondary-color;
+}
+
+p {
+  font-size: 14px;
+  justify-content: justify;
+}
+
+img{
+  display: flex;
+  margin: 0 auto;
+ margin-top: 5px;
+ border-radius: 2.5%;
+ overflow: hidden;
+ justify-content: center;
+ padding-top:2%;
+ width: 50%;
+ height: 30%;
+ object-fit: contain;
+ object-position: center center;
+}
+.stlist {
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 3%;
+  li {
+    justify-content: justify;
+    margin: 2px;
+  }
+}
+ol {
+ margin-top: 1%;
+ font-size: 12px;
+ justify-content:flex-start;
+
+ text-decoration: underline;
+}
